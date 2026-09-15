@@ -1,0 +1,60 @@
+import type { Transaction } from '@/types';
+
+export const transactions: Transaction[] = [
+  {
+    id: 'TXN-20260911-001',
+    date: '11 Sep 2026',
+    material: 'PCB',
+    recycler: 'GreenCycle Recycling',
+    amount: 2600,
+    status: 'Paid',
+  },
+  {
+    id: 'TXN-20260909-002',
+    date: '09 Sep 2026',
+    material: 'Cables',
+    recycler: 'ReNew E-Waste Hub',
+    amount: 4200,
+    status: 'Paid',
+  },
+  {
+    id: 'TXN-20260907-003',
+    date: '07 Sep 2026',
+    material: 'Batteries',
+    recycler: 'EcoWealth Solutions',
+    amount: 1350,
+    status: 'Pending',
+  },
+  {
+    id: 'TXN-20260905-004',
+    date: '05 Sep 2026',
+    material: 'Motors',
+    recycler: 'Sai Scrap Traders',
+    amount: 980,
+    status: 'Processing',
+  },
+  {
+    id: 'TXN-20260902-005',
+    date: '02 Sep 2026',
+    material: 'Mixed Plastic',
+    recycler: 'Vasundhara Eco',
+    amount: 480,
+    status: 'Paid',
+  },
+  {
+    id: 'TXN-20260828-006',
+    date: '28 Aug 2026',
+    material: 'PCB',
+    recycler: 'GreenCycle Recycling',
+    amount: 3120,
+    status: 'Paid',
+  },
+  {
+    id: 'TXN-20260825-007',
+    date: '25 Aug 2026',
+    material: 'Cables',
+    recycler: 'ReNew E-Waste Hub',
+    amount: 2100,
+    status: 'Pending',
+  },
+];
